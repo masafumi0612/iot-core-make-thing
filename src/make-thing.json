@@ -1,0 +1,112 @@
+[
+  {
+    "thingName": "thing-v00001",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00001",
+          "carId": "v00001"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00002",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00002",
+          "carId": "v00002"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00003",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00003",
+          "carId": "v00003"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00004",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00004",
+          "carId": "v00004"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00005",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00005",
+          "carId": "v00005"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00006",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00006",
+          "carId": "v00006"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00007",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00007",
+          "carId": "v00007"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00008",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00008",
+          "carId": "v00008"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00009",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00009",
+          "carId": "v00009"
+        }
+      }
+    }
+  },
+  {
+    "thingName": "thing-v00010",
+    "shadow": {
+      "state": {
+        "desired": {
+          "userId": "u00010",
+          "carId": "v00010"
+        }
+      }
+    }
+  }
+]
