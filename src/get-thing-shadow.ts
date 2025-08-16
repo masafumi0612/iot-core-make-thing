@@ -1,4 +1,4 @@
-import { IoTDataPlaneClient, GetThingShadowCommand } from "@aws-sdk/client-iot-data";
+import { IoTDataPlaneClient, GetThingShadowCommand } from "@aws-sdk/client-iot-data-plane";
 
 // AWS IoTデータプレーンのクライアントを初期化します。
 // リージョンは環境変数やAWS設定ファイルから自動的に取得されます。
@@ -44,7 +44,7 @@ async function main() {
   
   // Promise.allを使って、すべてのプロミスが完了するのを待ちます。
   // これにより、各ThingのShadow取得が並列で実行されます。
-  await Promise.all(promises);
+  await Promise.allSettled(promises);
 
   console.log("\nAll shadow fetch operations completed.");
 }
