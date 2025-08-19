@@ -29,11 +29,11 @@ async function getThingShadow(thingName: string) {
 
 /**
  * メイン関数
- * 10個のThingの名前を生成し、それぞれのShadow取得処理を並列で実行します。
+ * 1000個のThingの名前を生成し、それぞれのShadow取得処理を並列で実行します。
  */
 async function main() {
   const thingNames: string[] = [];
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 1000; i++) {
     // Thingの名前をゼロパディングして生成します (e.g., thing-v00001)
     const thingNumber = i.toString().padStart(5, '0');
     thingNames.push(`thing-v${thingNumber}`);
@@ -42,7 +42,7 @@ async function main() {
   // すべてのThingに対するShadow取得処理をプロミスの配列として作成します。
   const promises = thingNames.map(getThingShadow);
   
-  // Promise.allを使って、すべてのプロミスが完了するのを待ちます。
+  // Promise.allSettledを使って、すべてのプロミスが完了するのを待ちます。
   // これにより、各ThingのShadow取得が並列で実行されます。
   await Promise.allSettled(promises);
 
